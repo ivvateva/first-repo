@@ -1,11 +1,13 @@
- 
+﻿ 
 namespace _04._Hotel
 {
     class Program
     {
         static void Main(string[] args)
         {
- 
+
+ ### Update with Tortoise… ###
+
             string month = Console.ReadLine();
             int nights = int.Parse(Console.ReadLine());
  
