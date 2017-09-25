@@ -1,0 +1,394 @@
+ 
+namespace _04._Hotel
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+ 
+            string month = Console.ReadLine();
+            int nights = int.Parse(Console.ReadLine());
+ 
+            if (month == "May" || month == "October")
+            {
+                double studio = 50 * 0.95;
+                double twiceSize = 65;
+                double suite = 75;
+                {
+                    Console.WriteLine($"Studio: {nights * studio:F2}lv.");
+                    Console.WriteLine($"Double: {nights * twiceSize:F2}lv.");
+                    Console.WriteLine($"Suite: {nights * suite:F2}lv.");
+                }
+                                
+                else  if (month == "October" && nights > 7)
+                {
+                    Console.WriteLine($"Studio: {(nights - 1) * studio:F2}lv.");
+                }
+ 
+            }
+ 
+            else if (month == "June" || month == "September")
+            {
+                double studio = 60;
+                double twiceSize = 72;
+                double suite = 82;
+                {
+                    Console.WriteLine($"Studio: {nights * studio:F2}lv.");
+                    Console.WriteLine($"Double: {nights * twiceSize:F2}lv.");
+                    Console.WriteLine($"Suite: {nights * suite:F2}lv.");
+                }
+                else if (nights > 14)
+                {
+                    double price = twiceSize * 0.90;
+                    Console.WriteLine($"Double: {nights * price:F2}lv.");
+                }
+ 
+ 
+            }
+ 
+ 
+            else if (month == "July" || month == "August" || month == "December")
+            {
+                double studio = 68;
+                double twiceSize = 77;
+                double suite = 89;
+ 
+                {
+                    Console.WriteLine($"Studio: {nights * studio:F2}lv.");
+                    Console.WriteLine($"Double: {nights * twiceSize:F2}lv.");
+                    Console.WriteLine($"Suite: {nights * suite:F2}lv.");
+                }
+                else if (nights > 14)
+                {
+                    double price = suite * 0.85;
+                    Console.WriteLine($"Suite: {nights * price:F2}lv.");
+                }
+            }
+ 
+ 
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Top
